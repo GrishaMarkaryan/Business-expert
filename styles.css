@@ -1,0 +1,807 @@
+* {
+    font-family:'Ubuntu';
+}
+nav, .complex-automation, .practical-meaning, .open-new-possibilities,
+.what-differs, .we-know-how, .in-numbers, .partners,
+.send-request, .addresses-numbers, .footer-logos
+{
+    width: 940px;
+    margin: auto;
+}
+
+.logo, .menu li, .btn, .practical-meaning a, .icon-column, .btn-send-request
+{
+    cursor: pointer;
+}
+
+header {
+    background-color: #2a6dc5;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    height: 80px;
+}
+header ul {
+    padding: 0;
+}
+.logo {
+    height: 55px;
+    margin: auto 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 1000px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 560px;
+    list-style-type: none;
+    margin: 0;
+}
+.menu li{
+    transition: color 0.4s ease;
+}
+.menu li:hover {
+    color: #f6f27f;
+}
+.section-complex-automation {
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: 50%;
+    color: #333333;
+    height: 630px;
+}
+.complex-automation {
+    padding-top: 140px;
+}
+.complex-automation .complex {
+    margin: 0;
+    max-width:404px;
+    font-size: 53px;
+    font-weight: bold;
+}
+.complex-automation p {
+    margin: 0;
+    margin-top: 25px;
+    font-size: 29.07px;
+    max-width: 490px;
+}
+.btn-order {
+    position: relative;
+    margin-top: 61px;
+}
+.btn {
+    position: absolute;
+    background-color: #ff931e;
+    color: white;
+    border: none;
+    font-size: 22px;
+    width: 420px;
+    height: 60px;
+    border-radius: 50px;
+    z-index: 100;
+    transition: all 0.4s ease;
+}
+.btn:hover {
+background-color: rgb(255, 203, 47);
+}
+.shadow {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 406px;
+    height: 60px;
+    background-color: #9ea1a7;
+    opacity: 50%;
+    border-radius: 50px;
+}
+.section-practical-meaning {
+    height: 351px;
+}
+.practical-meaning {
+    display: flex;
+    flex-direction: column;
+    height: 176px;
+    gap: 39px;
+    padding: 88px 0 87px 0;
+    font-size: 15px;
+    color: #333333;
+}
+.practical-meaning p {
+    font-size: 37px;
+    font-weight: bold;
+    margin: 0;
+}
+.practical-meaning a {
+    font-size: 13px;
+}
+.section-open-new-possibilities {
+    background-image: url(images/bg-new-possibilities.png);
+    background-size: cover;
+    background-position: 50%;
+    color: white;
+    height: 682px;
+}
+.open-new-possibilities{
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+}
+.new-possibilities {
+    margin: 0;
+    font-size: 53px;
+    font-weight: bold;
+    max-width: 358px;
+    padding: 99px 20px 0px 20px;
+}
+.open-new-possibilities-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    transform: none;
+    transition: all 0.4s ease;
+}
+.icon-column img {
+    height: 102px;
+}
+.icon-column:hover {
+    transform: scale(1.1);
+}
+.open-new-possibilities-icons p{
+    margin: auto;
+    margin-top: 36px;
+ }
+.what-differs {
+    padding-top: 107px;
+    height: 457px;
+    color: #333333;
+}
+.what-differs-heading {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 107px;
+}
+.what-differs-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 25px;
+}
+.section-we-know-how {
+    background-color: #f0f4ff;
+    height: 450px;
+}
+.we-know-how {
+    font-size: 29.07px;
+    display: flex;
+    gap: 85px;
+}
+.we-know-how-left {
+    padding-top: 120px;
+    height: 187px;
+}
+.we-know-how-heading {
+    max-width: 450px;
+}
+.section-in-numbers {
+    height: 710px;
+    font-size: 14px;
+}
+.in-numbers-heading {
+    padding-top: 94px;
+    padding-bottom: 96px;
+    font-size: 37px;
+    font-weight: bold;
+}
+.in-numbers-subheading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a6dc5;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+.in-numbers-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.in-numbers-text {
+    max-width: 250px;
+}
+
+.section-partners {
+    background-color: #f0f4ff;
+    height: 380px;
+}
+.partners {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 99px;
+}
+.firma1c {
+    padding-left: 30px;
+}
+.microsoft {
+    padding-right: 30px;
+}
+.partners-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+}
+.partners-heading {
+    font-size: 15px;
+    text-decoration: underline;
+    color: #333333;
+}
+.section-send-request {
+    background-color: #ef651e;
+    height: 220px;
+    color: #ffffff;
+}
+.send-request {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.send-request-text {
+    font-size: 25px;
+    max-width: 540px;
+}
+.btn-send-request {
+    padding: 0;
+    margin: 0;
+    font-size: 27px;
+    font-weight: 200;
+    width: 291px;
+    height: 91px;
+    background-color: #ffffff;
+    color: #6d6e71;
+    border: none;
+    transition: all 0.4s ease;
+}
+.btn-send-request:hover{
+    background-color: rgb(123, 230, 133);
+    color: white;
+}
+footer {
+    height: 455px;
+    padding-top: 52px;
+    background-color: #231f20;
+    color: #ffffff;
+}
+.footer-whole {
+    display: flex;
+    flex-direction: column;
+    height: 455px;
+    justify-content: space-between;
+    align-items: center;
+}
+.city {
+    font-size: 15px;
+    font-weight: bold;
+}
+.contacts {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-and-office365 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.address {
+    display: grid;
+    grid-template-rows: 40px 95px 1fr;
+    font-size: 13px;
+}
+#Posad {
+    max-width: 130px;
+}
+#Dmitrov {
+    max-width: 140px;
+}
+#Pereslavl {
+    max-width: 160px;
+}
+#Lyubertsy {
+    max-width: 110px;
+}
+.addresses-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.addresses-numbers img {
+    width: 180px;
+    height: 151px;
+}
+.city-telephone {
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+.all-rights {
+    color: #6e7479;
+    font-size: 12px;
+}
+
+@media(max-width: 1024px) {
+nav, .complex-automation, .practical-meaning, .open-new-possibilities,
+.what-differs, .we-know-how, .in-numbers, .partners,
+.send-request, .addresses-numbers, .footer-logos
+{
+    width: 740px;
+}
+.menu {
+    width: 400px;
+
+}
+    .complex-automation .complex {
+        font-size: 43px;
+    }
+    .complex-automation p {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 18px;
+        width: 380px;
+    }    
+    .shadow {
+        width: 355px;
+    }
+    .practical-meaning {
+        font-size: 13px;
+    }
+    .practical-meaning p {
+        font-size: 32px;
+    }
+    .practical-meaning a {
+        font-size: 13px;
+    }
+    .new-possibilities {
+        font-size: 43px;
+    }
+    .open-new-possibilities-icons {
+        font-size: 11px;
+    }
+    .what-differs-heading {
+        font-size: 32px;
+    }
+    .what-differs-text {
+        font-size: 12px;
+    }
+    .we-know-how {
+        font-size: 20px;
+    }
+    .we-know-how-heading {
+        max-width: 310px;
+    }
+    .section-in-numbers {
+        height: 600px;
+        font-size: 12px;
+    }
+    .in-numbers-heading {
+        font-size: 32px;
+    }
+    .in-numbers-subheading {
+        font-size: 14px;
+    }
+    .in-numbers-icons img{
+        height: 70px;
+    }    
+    .partners-column img {
+        height: 110px;
+    }
+    .partners-column {
+        gap: 20px;
+    }
+    .partners-heading {
+        font-size: 11px;
+    }
+    .send-request {
+        display: flex;
+        align-items: center;
+    }
+    .send-request-text {
+        font-size: 18px;
+        max-width: 440px;
+    }
+    .btn-send-request {
+        font-size: 18px;
+        width: 200px;
+        height: 70px;
+    }
+    footer {
+        height: 400px;
+    }
+    .footer-whole {
+        height: 400px;
+    }
+    .city {
+        font-size: 12px;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .addresses-numbers img {
+        width: 160px;
+        height: 140px;
+    }
+    .city-telephone {
+        font-size: 12px;
+    }
+    .city-telephone-pereslavl {
+        font-size: 15px;
+    }
+}
+@media(max-width: 798px) {
+    nav, .complex-automation, .practical-meaning, .open-new-possibilities,
+    .what-differs, .we-know-how, .in-numbers, .partners,
+    .send-request, .addresses-numbers, .footer-logos
+    {
+        width: 540px;
+    }
+    .logo {
+        height: 45px;
+    }
+    .menu {
+        width: 300px;
+        font-size: 12px;
+    }
+    .section-complex-automation {
+        height: 530px;
+        background-position: 56%;
+    }
+    .complex-automation .complex {
+        font-size: 37px;
+    }
+    .complex-automation p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+    .btn {
+        font-size: 16px;
+        width: 300px;
+    }    
+    .shadow {
+        width: 280px;
+    }
+    .practical-meaning {
+        font-size: 13px;
+    }
+    .practical-meaning p {
+        font-size: 32px;
+    }
+    .practical-meaning a {
+        font-size: 13px;
+    }
+    .section-open-new-possibilities {
+        height: 560px;
+    }
+    .new-possibilities {
+        font-size: 37px;
+    }
+    .open-new-possibilities-icons {
+        font-size: 9px;
+    }
+    .icon-column img {
+        height: 80px;
+    }
+    .section-what-differs {
+        height: 430px;
+    }
+    .what-differs {
+        padding-top: 80px;
+    }
+    .what-differs-heading {
+        font-size: 27px;
+        margin-bottom: 50px;
+    }
+    .what-differs-text {
+        font-size: 10px;
+    }
+    .section-we-know-how {
+        height: 350px;
+    }
+    .we-know-how {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .we-know-how-left {
+        padding-top: 60px;
+    }
+    .we-know-how img {
+        height: 350px;    
+    }
+    .we-know-how-heading {
+        max-width: 160px;
+    }
+    .section-in-numbers {
+        height: 500px;
+        font-size: 10px;
+    }
+    .in-numbers-heading {
+        font-size: 27px;
+        padding: 55px 0;
+    }
+    .in-numbers-subheading {
+        font-size: 12px;
+    }
+    .in-numbers-icons img{
+        height: 60px;
+    }    
+    .in-numbers-column {
+        max-width: 180px;
+    }
+    .in-numbers-text {
+        max-width: 160px;
+    }
+    .section-partners {
+        height: 300px;
+    }
+    .partners {
+        padding-top: 80px;
+    }
+    .partners-column img {
+        height: 80px;
+    }
+    .partners-column {
+        gap: 20px;
+    }
+    .partners-heading {
+        font-size: 10px;
+    }
+    .send-request-text {
+        font-size: 16px;
+    }
+    .btn-send-request {
+        font-size: 16px;
+        width: 180px;
+        height: 70px;
+    }
+    footer {
+        height: 400px;
+    }
+    .footer-whole {
+        height: 400px;
+    }
+    .city {
+        font-size: 10px;
+    }
+    .address {
+        font-size: 8px;
+        max-width: 87px;
+    }
+    .addresses-numbers img {
+        width: 100px;
+        height: 80px;
+    }
+    .city-telephone {
+        font-size: 10px;
+    }
+    .footer-logos img {
+        width: 120px;
+    }
+    .all-rights {
+        font-size: 10px;
+    }
+}
+@media(max-width: 640px) {
+    nav, .complex-automation, .practical-meaning, .open-new-possibilities,
+    .what-differs, .we-know-how, .in-numbers, .partners,
+    .send-request, .addresses-numbers, .footer-logos
+    {
+        width: 300px;
+        margin: auto;
+    }
+    header {
+        height: fit-content;
+        padding: 10px 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .logo {
+        height: 55px;
+        width: min-content;
+    }
+    .section-complex-automation {
+        height: 530px;
+        background-position: 58%;
+    }
+    .complex-automation .complex {
+        font-size: 30px;
+    }
+    .complex-automation p {
+        font-size: 15px;
+        max-width: 170px;
+    }
+    .btn {
+        font-size: 14px;
+        width: 230px;
+    }    
+    .shadow {
+        width: 215px;
+    }
+    .practical-meaning {
+        font-size: 13px;
+        gap: 15px;
+        padding: 40px 0 87px;
+    }
+    .practical-meaning p {
+        font-size: 27px;
+    }
+    .section-open-new-possibilities {
+        height: 480px;
+    }
+    .new-possibilities {
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    .open-new-possibilities {
+        gap: 50px;
+    }
+    .open-new-possibilities-icons {
+        display: grid;        
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 10px;
+        gap: 10px;
+    }
+    .icon-column img {
+        height: 50px;
+    }
+    .section-what-differs {
+        height: 530px;
+    }
+    .what-differs {
+        padding-top: 40px;
+    }
+    .what-differs-heading {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    .what-differs-text {
+        font-size: 12px;
+    }
+    .section-we-know-how {
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+    }
+    .we-know-how {
+        font-size: 20px;
+        display: flex;
+        margin: auto;
+    }
+    .we-know-how-left {
+        padding-top: 90px;
+    }
+    .we-know-how img {
+        height: 400px;  
+        position: absolute;  
+        right: -70px;
+    }
+    .we-know-how-heading {
+        max-width: 200px;
+    }
+    .section-in-numbers {
+        height: fit-content;
+        font-size: 10px;
+        padding-bottom: 30px;
+    }
+    .in-numbers-icons {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .in-numbers-heading {
+        font-size: 27px;
+        padding: 30px 0;
+    }
+    .in-numbers-subheading {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .in-numbers-icons img{
+        height: 60px;
+    }    
+    .in-numbers-column {
+        max-width: fit-content;
+    }
+    .in-numbers-text {
+        max-width: 280px;
+    }
+    .section-partners {
+        height: fit-content;
+    }
+    .partners {
+        display: grid;  
+        grid-template-columns: 1fr 1fr;      
+        padding: 40px 0;
+        grid-row-gap: 30px;
+    }
+    .partners-column img {
+        height: 80px;
+    }
+    .partners-column {
+        gap: 10px;
+    }
+    .partners-heading {
+        font-size: 10px;
+    }
+    .firma1c {
+        padding-left: 0;
+    }
+    .microsoft {
+        padding-right: 0;
+    }
+    .send-request-text {
+        font-size: 16px;
+    }
+    .btn-send-request {
+        font-size: 16px;
+        width: 180px;
+        height: 70px;
+    }
+    footer {
+        height: 400px;
+    }
+    .footer-whole {
+        height: 400px;
+    }
+    .addresses-numbers {
+        display: flex;
+        flex-direction: column;
+    }
+    .city {
+        font-size: 10px;
+    }
+    .address {
+        font-size: 8px;
+        height: 80px;
+        max-width: fit-content;
+        display: grid;
+        grid-template-columns: 80px 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+    #Posad, #Dmitrov, #Pereslavl, #Lyubertsy {
+        width: 90px;
+    }
+    .addresses-numbers img {
+        display: none;
+    }
+    .city-telephone {
+        font-size: 10px;
+        width: 100px;
+    }
+    .footer-logos img {
+        width: 90px;
+    }
+    .all-rights {
+        font-size: 8px;
+    }
+
+}
